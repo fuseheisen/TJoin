@@ -1,0 +1,41 @@
+# ========================================== #
+#            TJOIN GENEL AYARLAR             #
+# ========================================== #
+
+database:
+  type: YAML
+  host: "127.0.0.1"
+  port: 3306
+  database_name: "turkeynw_dungeons"
+  username: "root"
+  password: "password123"
+  pool_settings:
+    max_pool_size: 10
+    connection_timeout: 30000
+
+settings:
+  sounds:
+    enabled: true
+    success: "ENTITY_PLAYER_LEVELUP"
+    error: "ENTITY_VILLAGER_NO"
+    teleport: "ENTITY_ENDERMAN_TELEPORT"
+
+messages:
+  prefix: "&#FFAA00[ᴛᴊᴏiɴ] &r"
+
+  no_permission: "&cʙᴜ iꜱʟᴇᴍi ʏᴀᴘᴍᴀᴋ iᴄiɴ ʏᴇᴛᴋiɴ ʏᴏᴋ!"
+  not_player: "&cʙᴜ ᴋᴏᴍᴜᴛᴜ ꜱᴀᴅᴇᴄᴇ ᴏʏᴜɴᴅᴀɴ ᴋᴜʟʟᴀɴᴀʙiʟiʀꜱiɴ."
+  reload_success: "&aʙüᴛüɴ ʏᴀᴘɪʟᴀɴᴅɪʀᴍᴀ ᴅᴏꜱʏᴀʟᴀʀɪ ʙᴀꜱᴀʀɪʏʟᴀ ʏᴇɴiʟᴇɴᴅi!"
+
+  checking_data: "&eᴢiɴᴅᴀɴ ᴠᴇʀiʟᴇʀi ᴋᴏɴᴛʀᴏʟ ᴇᴅiʟiʏᴏʀ..."
+  dungeon_no_location: "&cʙᴜ ᴢiɴᴅᴀɴɪɴ ʟᴏᴋᴀꜱʏᴏɴᴜ ʜᴇɴüᴢ ᴀʏᴀʀʟᴀɴᴍᴀᴍɪꜱ! ʟüᴛꜰᴇɴ ᴀᴅᴍiɴʟᴇʀᴇ ʙiʟᴅiʀiɴ."
+  dungeon_cooldown: "&cʙᴜ ᴢiɴᴅᴀɴᴀ ᴛᴇᴋʀᴀʀ ɢiʀᴍᴇᴋ iᴄiɴ &e%time% &cʙᴇᴋʟᴇᴍᴇʟiꜱiɴ!"
+  dungeon_deleted: "&aᴢiɴᴅᴀɴ ᴋᴀʟɪᴄɪ ᴏʟᴀʀᴀᴋ ʙᴀꜱᴀʀɪʏʟᴀ ꜱiʟiɴᴅi!"
+
+  money_not_enough: "&cʙᴜ ᴢiɴᴅᴀɴᴀ ɢiʀᴍᴇᴋ iᴄiɴ ʏᴇᴛᴇʀʟi ᴘᴀʀᴀɴ ʏᴏᴋ! ɢᴇʀᴇᴋʟi: &e%cost% ᴛʟ"
+  money_paid: "&aᴢiɴᴅᴀɴ üᴄʀᴇᴛi öᴅᴇɴᴅi: &e-%cost% ᴛʟ"
+  key_not_found: "&cʙᴜ ᴢiɴᴅᴀɴᴀ ɢiʀᴍᴇᴋ iᴄiɴ ɢᴇʀᴇᴋʟi ᴀɴᴀʜᴛᴀʀᴀ ꜱᴀʜiᴘ ᴅᴇɢiʟꜱiɴ!"
+  key_used: "&aᴀɴᴀʜᴛᴀʀ ʙᴀꜱᴀʀɪʏʟᴀ ᴋᴜʟʟᴀɴɪʟᴅɪ!"
+
+  teleporting: "&aᴢiɴᴅᴀɴᴀ ɪꜱɪɴʟᴀɴᴍᴀ ʙᴀꜱʟᴀᴛɪʟɪʏᴏʀ..."
+  teleport_failed: "&cɪꜱɪɴʟᴀɴᴍᴀ ʙᴀꜱᴀʀɪꜱɪᴢ ᴏʟᴅᴜ! ᴅüɴʏᴀ ʏüᴋʟᴇɴᴍᴇᴍiꜱ ᴠᴇʏᴀ ɢüᴠᴇɴʟi ᴅᴇɢiʟ."

@@ -1,0 +1,14 @@
+name: TJoin
+version: '1.0.0'
+main: net.turkeynw.tjoin.TJoin
+description: Gelismis, Folia uyumlu ve coklu veritabani destekli zindan sistemi.
+api-version: '1.21'
+folia-supported: true
+authors:
+  - TurkeyNW
+
+dependencies:
+  server:
+    Vault:
+      load: BEFORE
+      required: true

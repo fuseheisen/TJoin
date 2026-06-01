@@ -1,0 +1,26 @@
+# ========================================== #
+#             ZİNDAN AYARLARI                #
+# ========================================== #
+
+dungeons:
+  iskelet_zindani:
+    display_name: "&#FF0000Kanlı İskelet Zindanı"
+    cooldown: 3600
+    requirement:
+      type: KEY
+      key_id: "iskelet_zindani"
+    # Teleport ayarı henüz yapılmadığı için menüde "Ayarlanmamış" yazacaktır.
+
+  ejderha_zindani:
+    display_name: "&5Ejderha'nın İni"
+    cooldown: 86400
+    requirement:
+      type: MONEY
+      amount: 50000.0
+    teleport:
+      world: "world"
+      x: 100.5
+      y: 65.0
+      z: 200.5
+      yaw: 90.0
+      pitch: 0.0

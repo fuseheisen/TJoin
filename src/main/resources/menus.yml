@@ -1,0 +1,114 @@
+menus:
+  main_menu:
+    title: "&#FFAA00⚔ ᴢiɴᴅᴀɴ ꜱᴇᴄiᴍi ⚔"
+    size: 27
+    filler:
+      enabled: true
+      material: "BLACK_STAINED_GLASS_PANE"
+      name: " "
+
+    dungeon_item:
+      default_material: "SPAWNER"
+      name_format: "%dungeon_name%"
+      lore_format:
+        - "&8------------------------"
+        - "&7ɢiʀiꜱ ꜱᴀʀᴛɪ: %req_text%"
+        - "%cooldown_text%"
+        - "&8------------------------"
+        - "&a► ɢiʀᴍᴇᴋ iᴄiɴ ᴛɪᴋʟᴀ!"
+
+    placeholders:
+      req_free: "&aüᴄʀᴇᴛꜱiᴢ"
+      req_money: "&e%cost% ᴛʟ"
+      req_key: "&6ᴀɴᴀʜᴛᴀʀ ɢᴇʀᴇᴋiʏᴏʀ"
+      cooldown_active: "&fʙᴇᴋʟᴇᴍᴇ: &c%time% ꜱᴀɴiʏᴇ"
+
+  admin_menu:
+    title: "&4⚙ ᴢiɴᴅᴀɴ ʏöɴᴇᴛiᴍi"
+    size: 54
+    filler:
+      enabled: true
+      material: "RED_STAINED_GLASS_PANE"
+      name: " "
+
+    dungeon_item:
+      name_format: "%dungeon_name%"
+      lore_format:
+        - "&7ɪᴅ: &f%dungeon_id%"
+        - "&7ɢᴇʀᴇᴋꜱiɴiᴍ: &f%req_text%"
+        - "&7ʟᴏᴋᴀꜱʏᴏɴ: &f%loc_text%"
+        - "&8------------------------"
+        - "&e► ᴅüᴢᴇɴʟᴇᴍᴇᴋ iᴄiɴ ᴛɪᴋʟᴀ!"
+
+    create_button:
+      slot: 49
+      material: "NETHER_STAR"
+      name: "&a+ ʏᴇɴi ᴢiɴᴅᴀɴ ᴏʟᴜꜱᴛᴜʀ"
+      lore:
+        - "&7ꜱᴏʜʙᴇᴛᴇ ʏᴇɴi ᴢiɴᴅᴀɴɪɴ ɪᴅ'ꜱiɴi"
+        - "&7ʏᴀᴢᴀʀᴀᴋ ᴛᴀꜱʟᴀɢɪ ᴏʟᴜꜱᴛᴜʀᴍᴀᴋ"
+        - "&7iᴄiɴ ʙᴜʀᴀʏᴀ ᴛɪᴋʟᴀ."
+
+  edit_menu:
+    title: "&4⚙ ᴅüᴢᴇɴʟᴇ: %dungeon_name%"
+    size: 36
+    filler:
+      enabled: true
+      material: "GRAY_STAINED_GLASS_PANE"
+      name: " "
+
+    buttons:
+      edit_name:
+        slot: 10
+        material: "NAME_TAG"
+        name: "&eɢöʀüɴᴇɴ iꜱᴍi ᴅᴇɢiꜱᴛiʀ"
+        lore:
+          - "&7ꜱᴜ ᴀɴᴋi: &f%dungeon_name%"
+          - "&7"
+          - "&a► ᴄʜᴀᴛᴇ ʏᴇɴi iꜱᴍi ʏᴀᴢᴍᴀᴋ iᴄiɴ ᴛɪᴋʟᴀ."
+
+      edit_req:
+        slot: 12
+        material: "GOLD_INGOT"
+        name: "&eɢᴇʀᴇᴋꜱiɴiᴍi ᴅᴇɢiꜱᴛiʀ"
+        lore:
+          - "&7ꜱᴜ ᴀɴᴋi: &f%req_text%"
+          - "&7"
+          - "&a► üᴄʀᴇᴛꜱiᴢ / ᴘᴀʀᴀ / ᴀɴᴀʜᴛᴀʀ ᴀʀᴀꜱɪ"
+          - "&a  ɢᴇᴄiꜱ ʏᴀᴘᴍᴀᴋ iᴄiɴ ᴛɪᴋʟᴀ."
+
+      edit_loc:
+        slot: 14
+        material: "ENDER_PEARL"
+        name: "&eʟᴏᴋᴀꜱʏᴏɴ ʙᴇʟiʀʟᴇ"
+        lore:
+          - "&7ᴅᴜʀᴜᴍ: &f%loc_text%"
+          - "&7"
+          - "&a► ᴇʟiɴᴇ ʟᴏᴋᴀꜱʏᴏɴ iɴᴄiꜱi ᴀʟᴍᴀᴋ"
+          - "&a  iᴄiɴ ᴛɪᴋʟᴀ."
+
+      edit_cooldown:
+        slot: 16
+        material: "CLOCK"
+        name: "&eʙᴇᴋʟᴇᴍᴇ ꜱüʀᴇꜱi ʙᴇʟiʀʟᴇ"
+        lore:
+          - "&7ꜱᴜ ᴀɴᴋi: &f%cooldown% ꜱᴀɴiʏᴇ"
+          - "&7"
+          - "&a► ᴄʜᴀᴛᴇ ꜱᴀɴiʏᴇ ᴄiɴꜱiɴᴅᴇɴ ʏᴀᴢᴍᴀᴋ"
+          - "&a  iᴄiɴ ᴛɪᴋʟᴀ."
+
+      edit_delete:
+        slot: 31
+        material: "BARRIER"
+        name: "&c&lᴢiɴᴅᴀɴɪ ꜱiʟ"
+        lore:
+          - "&7ʙᴜ iꜱʟᴇᴍ &4ɢᴇʀi ᴀʟɪɴᴀᴍᴀᴢ&7!"
+          - "&7"
+          - "&c► ᴋᴀʟɪᴄɪ ᴏʟᴀʀᴀᴋ ꜱiʟᴍᴇᴋ iᴄiɴ ᴛɪᴋʟᴀ."
+
+      edit_back:
+        slot: 27
+        material: "ARROW"
+        name: "&cɢᴇʀi ᴅöɴ"
+        lore:
+          - "&7► ᴀɴᴀ ᴍᴇɴüʏᴇ ᴅöɴᴍᴇᴋ iᴄiɴ ᴛɪᴋʟᴀ."

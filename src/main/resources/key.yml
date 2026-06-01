@@ -1,0 +1,39 @@
+# ========================================== #
+#             ANAHTAR AYARLARI               #
+# ========================================== #
+# Eklentideki zindanlar için özel anahtarlar #
+# buradan ayarlanır. Custom Model Data (CMD) #
+# desteği sayesinde ItemsAdder veya Oraxen   #
+# eşyalarını rahatlıkla kullanabilirsiniz.   #
+# ========================================== #
+
+keys:
+  # Zindanın sistem kimliği (dungeons.yml'deki ile aynı olmalı)
+  iskelet_zindani:
+    # 1.21 sürümleri için modern eşya isimleri kullanılmalıdır
+    material: "TRIAL_KEY"
+    name: "&#FF0000Kanlı İskelet Anahtarı"
+    lore:
+      - "&7"
+      - "&7Bu kadim anahtar seni &cİskelet"
+      - "&7zindanına götürecek tek yoldur."
+      - "&7"
+      - "&e► Giriş yapmak için envanterinde tut!"
+
+    # ItemsAdder veya Oraxen kullanıyorsanız o eşyanın CMD değerini girin.
+    # Kullanmıyorsanız bu satırı tamamen silebilir veya 0 yapabilirsiniz.
+    custom_model_data: 0
+
+    # Eşyanın büyü basılmış gibi parlayıp parlamayacağı (True/False)
+    glow: true
+
+  ejderha_zindani:
+    material: "NETHER_STAR"
+    name: "&5Ejderha'nın Gözü"
+    lore:
+      - "&7Ejderha zindanının kapılarını"
+      - "&7aralayan efsanevi bir nesne."
+      - "&7"
+      - "&e► Giriş yapmak için envanterinde tut!"
+    custom_model_data: 1055
+    glow: true
